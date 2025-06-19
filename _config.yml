@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Camille Chiu"
 title_separator          : "-"
 name                     : &name "Camille Chiu"
-description              : &description "personal description"
+description              : &description "Undergraduate in Astrophysics"
 url                      : https://camchiu.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "camchiu/camchiu.github.io"
@@ -23,7 +23,7 @@ repository               : "camchiu/camchiu.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Camille Chiu"
   pronouns         : "she/her"
   bio              : "Undergraduate"
   location         : "New Haven, CT"
