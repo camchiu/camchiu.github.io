@@ -22,10 +22,10 @@ repository               : "camchiu/camchiu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Chiu_headshot_update.jpeg"
   name             : "Camille Chiu"
   pronouns         : "she/her"
-  bio              : "Undergraduate"
+  bio              : "Undergraduate in Astrophysics"
   location         : "New Haven, CT"
   employer         : "Yale University"
   uri              : # URL
