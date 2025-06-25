@@ -11,11 +11,23 @@ author_profile: true
 
 ## Constraining Mass Loss on the Red Giant Branch Using Wide Binaries and Asteroseismology
 
-Stellar mass loss is the process by which stellar matter is expelled from the surface of a star through phenomena such as winds, pulsation-induced shocks, and radiation pressure. However, mass loss on the red giant branch (RGB) has yet to be well-constrained observationally or understood theoretically. Specifically, previous RGB mass loss studies of open clusters and globular clusters are inconsistent with each other. There is a critical need for alternative methods to measure mass loss in order to understand and resolve these discrepancies. 
+<div style="display: flex; align-items: center; gap: 2rem;">
+
+<div style="flex: 1;">
+  <img src="/images/massloss.jpg" alt="Artist’s rendition of the final stages of mass loss before a star explodes. [Credit: Melissa Weiss/CfA]" style="max-width: 100%; height: auto; border-radius: 8px;">
+</div>
+
+<div style="flex: 1;">
+  <p>
+    Stellar mass loss is the process by which stellar matter is expelled from the surface of a star through phenomena such as winds, pulsation-induced shocks, and radiation pressure. However, mass loss on the red giant branch (RGB) has yet to be well-constrained observationally or understood theoretically. Specifically, previous RGB mass loss studies of open clusters and globular clusters are inconsistent with each other. There is a critical need for alternative methods to measure mass loss in order to understand and resolve these discrepancies. 
 
 We use red clump and subgiant wide binaries from the El-Badry+2021 catalog as a pilot study to investigate RGB mass loss. I extracted the oscillation frequencies of each RC star from TESS light curves and infer the stellar properties of each star based on a set of observables. I then fit the wide binary sample to \texttt{MESA} and \texttt{GYRE} stellar evolution models using observational, asteroseismic, and coevality constraints in order to estimate the stellar mass loss of the primary RC star in each binary. We concluded that the stellar mass loss determined from our analyses are more consistent with the smaller values ($\leq 0.1~M_{\odot}$) estimated from seismic studies of open clusters rather than the larger mass loss values inferred from globular clusters.
 
 See my [AAS 245 poster](https://aas245-aas.ipostersessions.com/?s=BF-45-85-3B-F3-EE-26-C4-30-A2-05-27-44-26-92-6A) and [2024 talk](https://www.youtube.com/watch?v=regW2ty3vCU&t=1935s) on this work.
+  </p>
+</div>
+
+</div>
 
 ## Kinematics and Star-formation History of Willman 1: A Disrupting Dwarf Galaxy
 
