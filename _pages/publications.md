@@ -14,7 +14,7 @@ author_profile: true
 <div style="display: flex; align-items: center; gap: 2rem;">
 
 <div style="flex: 1;">
-  <img src="/images/massloss.jpg" alt="Artist’s rendition of the final stages of mass loss before a star explodes. [Credit: Melissa Weiss/CfA]" style="max-width: 100%; height: auto; border-radius: 8px;">
+  <img src="/images/massloss.png" alt="Artist’s rendition of the final stages of mass loss before a star explodes. [Credit: Melissa Weiss/CfA]" style="max-width: 100%; height: auto; border-radius: 8px;">
 </div>
 
 <div style="flex: 1;">
