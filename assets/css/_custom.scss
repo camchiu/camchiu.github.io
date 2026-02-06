@@ -1,0 +1,21 @@
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  background: #ffffff;
+  border-top: 1px solid #e5e5e5;
+
+  text-align: center;
+  font-size: 0.75rem;
+  color: #777;
+
+  padding: 0.4rem 0;
+  z-index: 999;
+}
+
+/* Prevent content from being hidden behind footer */
+.page__content,
+main {
+  padding-bottom: 2rem;
+}
