@@ -1,0 +1,10 @@
+<div class="card">
+  {% if include.item.image %}
+    <img src="{{ include.item.image }}" alt="{{ include.item.title }}">
+  {% endif %}
+
+  <h3>{{ include.item.title }}</h3>
+  <p>{{ include.item.description }}</p>
+
+  <a href="{{ include.item.url }}">Read more →</a>
+</div>
