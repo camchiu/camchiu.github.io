@@ -1,0 +1,8 @@
+title: "Camille Chiu"
+name: "Camille Chiu"
+description: "Astrophysics @ Yale"
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
