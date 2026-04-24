@@ -2,30 +2,47 @@
 ---
 
 /* =========================
-   MINIMAL MISTAKES CORE
-   (DO NOT REMOVE)
+   CORE THEME (MUST BE FIRST)
    ========================= */
 @import "minimal-mistakes";
 
 /* =========================
-   TYPOGRAPHY (Geha-like)
+   BASE DARK THEME (SAFE VERSION)
    ========================= */
 
-/* body font */
 body {
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ONLY set background on root containers safely */
+html, body {
+  background-color: #0f1115;
+}
+
+/* main content wrapper */
+.page__content {
+  color: #d6d6d6;
+}
+
+/* sidebar */
+.sidebar {
   background-color: #0f1115;
   color: #d6d6d6;
 }
 
-/* headings font (academic serif feel) */
+/* masthead */
+.masthead {
+  background-color: #0f1115;
+  border-bottom: 1px solid #222;
+}
+
+/* headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Georgia", "Times New Roman", serif;
-  font-weight: 500;
   color: #f2f2f2;
 }
 
-/* paragraph + list text */
+/* paragraphs */
 p, li {
   color: #d6d6d6;
 }
@@ -39,36 +56,7 @@ a:hover {
   color: #9bbcff;
 }
 
-/* =========================
-   LAYOUT BACKGROUND FIXES
-   ========================= */
-
-/* main page area */
-.page {
-  background-color: #0f1115;
-}
-
-/* sidebar */
-.sidebar {
-  background-color: #0f1115;
-  color: #d6d6d6;
-}
-
-/* masthead (top nav bar) */
-.masthead {
-  background-color: #0f1115;
-  border-bottom: 1px solid #222;
-}
-
-/* navigation links */
-.greedy-nav a {
-  color: #d6d6d6;
-}
-
-/* =========================
-   AUTHOR AVATAR (fix hover + circle)
-   ========================= */
-
+/* avatar fix */
 .author__avatar img {
   border-radius: 50% !important;
   width: 150px;
@@ -76,20 +64,4 @@ a:hover {
   object-fit: cover;
   opacity: 1 !important;
   transition: none !important;
-}
-
-/* sometimes theme applies styling to wrapper instead */
-.author__avatar {
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-/* =========================
-   OPTIONAL: remove strong footer styling
-   ========================= */
-
-.page__footer {
-  background-color: #0f1115;
-  border-top: 1px solid #222;
-  color: #777;
 }
