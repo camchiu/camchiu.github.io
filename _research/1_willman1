@@ -1,11 +1,15 @@
 ---
-layout: default
-title: "Milky Way Dwarf Galaxies"
-image: "/assets/images/mw_transparent.png"
-text: |
-    The Local Group’s population of satellite galaxies and star clusters include the lowest mass and least chemically enriched stellar systems in the known Universe. Proximity enables spectroscopic observations of individual stars, providing exquisite measurements of their kinematics and chemistries.
+title: "Stellar Pulsation Timing Variations"
+image: /assets/project1.jpg
+excerpt: "Using pulsation timing variations to detect exoplanetary companions around evolved stars."
+permalink: /research/project1/
 ---
 
-The Local Group’s population of satellite galaxies and star clusters include the lowest mass and least chemically enriched stellar systems in the known Universe. Proximity enables spectroscopic observations of individual stars, providing exquisite measurements of their kinematics and chemistries.
+We study pulsation timing variations in evolved stars as a method for detecting unseen companions, including exoplanets and low-mass stellar objects. This technique leverages precise timing of stellar oscillations to infer orbital perturbations.
 
-Information and access to the Keck/DEIMOS Stellar Archive are available <a href="{{ 'deimos' | relative_url }}">here</a>.
+Key goals:
+- Model pulsation phase stability
+- Constrain companion masses
+- Compare with radial velocity methods
+
+This project combines observational data with theoretical modeling of stellar interiors.
