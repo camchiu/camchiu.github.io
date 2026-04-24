@@ -6,18 +6,25 @@ permalink: /research/
 
 My astrophysics research focuses on stellar evolution, exoplanets, and pulsation timing variations.
 
-<div class="card">
-    {% for research in site.research %}
-    <h2>{{ research.title }}</h2>
-        <div class="row" id="{{research.title}}">
-            <div class="col-md-8">
-                <div class="text-div">
-                    <p>{{ research.content }}</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img src="{{ research.image | relative_url }}" alt="{{ research.title }}" class="img-fluid">
-            </div>
-        </div>
-    {% endfor %}
+
+<div class="research-list">
+
+  <div class="card">
+    <h2>Project 1 Title</h2>
+    <p>Short description of project 1.</p>
+    <img src="/assets/project1.jpg" />
+  </div>
+
+  <div class="card">
+    <h2>Project 2 Title</h2>
+    <p>Short description of project 2.</p>
+    <img src="/assets/project2.jpg" />
+  </div>
+
+  <div class="card">
+    <h2>Project 3 Title</h2>
+    <p>Short description of project 3.</p>
+    <img src="/assets/project3.jpg" />
+  </div>
+
 </div>
