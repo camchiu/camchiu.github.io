@@ -6,3 +6,12 @@ remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-include-cache
+
+author:
+  name: "Camille Chiu"
+  avatar: "/assets/images/portrait.jpg"
+  bio: "Astrophysics at Yale"
+  location: "New Haven, CT"
+  email: "camille.chiu@yale.edu"
+  github: "camchiu"
+  linkedin: "https://www.linkedin.com/in/camille-chiu-580a3a1a9/"
