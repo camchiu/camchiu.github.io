@@ -1,31 +1,66 @@
-.card {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #d0d0d0;
-  border-radius: 6px;
-  padding: 1.2rem;
-  margin-bottom: 1.5rem;
-}
+/* =========================
+   CLICKABLE CARD WRAPPER
+   ========================= */
 
-/* optional image */
-.card-img-top {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-  margin-bottom: 1rem;
-}
-
-/* text container */
-.card-text {
-  flex-grow: 1;
-}
-
-/* links */
 .card-link {
   text-decoration: none;
   color: inherit;
+  display: block;
 }
 
-.card-link:hover {
-  cursor: pointer;
+/* =========================
+   MAIN CARD LAYOUT
+   ========================= */
+
+.card-horizontal {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  padding: 1.5rem;
+
+  margin-bottom: 1.5rem;
+
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* hover effect */
+.card-link:hover .card-horizontal {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   IMAGE (LEFT SIDE)
+   ========================= */
+
+.card-image {
+  flex: 0 0 180px;   /* fixed width image column */
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* =========================
+   TEXT (RIGHT SIDE)
+   ========================= */
+
+.card-content {
+  flex: 1;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.card-content p {
+  margin: 0;
+  line-height: 1.5;
 }
