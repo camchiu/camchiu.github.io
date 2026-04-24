@@ -1,51 +1,48 @@
-
 /* =========================
-   GEHA-STYLE CLICKABLE CARD
+   GEHA-GROUP STYLE CARDS
    ========================= */
 
+/* clickable wrapper */
 .card-link {
+  display: block;
   text-decoration: none;
   color: inherit;
-  display: block;
 }
 
-/* =========================
-   MAIN CARD
-   ========================= */
-
+/* main card container */
 .card-horizontal {
   display: flex;
+  align-items: stretch;
   gap: 1.5rem;
-  align-items: center;
 
-  padding: 1.5rem;
+  padding: 1.25rem;
 
-  border: 1px solid #e2e2e2;
-  border-radius: 10px;
   background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
 
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
 
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 
   transition: transform 0.15s ease,
               box-shadow 0.15s ease,
               border-color 0.15s ease;
 }
 
-/* hover effect */
+/* hover (Geha-style subtle lift) */
 .card-link:hover .card-horizontal {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  border-color: #cfcfcf;
+  transform: translateY(-2px);
+  border-color: #bfbfbf;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 }
 
 /* =========================
-   IMAGE (LEFT SIDE)
+   IMAGE (LEFT)
    ========================= */
 
 .card-image {
-  flex: 0 0 180px;
+  flex: 0 0 170px;
 }
 
 .card-image img {
@@ -53,43 +50,44 @@
   height: 100%;
   object-fit: cover;
 
-  border-radius: 6px;
+  border-radius: 4px;
   display: block;
 }
 
 /* =========================
-   TEXT (RIGHT SIDE)
+   TEXT (RIGHT)
    ========================= */
 
 .card-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card-content h2 {
-  margin-top: 0;
-  margin-bottom: 0.4rem;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
+  margin: 0 0 0.4rem 0;
+  font-weight: 500;
 }
 
 .card-content p {
   margin: 0;
-  color: #444;
-  line-height: 1.5;
   font-size: 0.95rem;
+  color: #555;
+  line-height: 1.45;
 }
 
 /* =========================
-   MOBILE RESPONSIVE
+   MOBILE
    ========================= */
 
 @media (max-width: 768px) {
   .card-horizontal {
     flex-direction: column;
-    align-items: flex-start;
   }
 
   .card-image {
     width: 100%;
-    flex: none;
   }
 }
