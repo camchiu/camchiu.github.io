@@ -15,3 +15,6 @@ author:
   email: "camille.chiu@yale.edu"
   github: "camchiu"
   linkedin: "https://www.linkedin.com/in/camille-chiu-580a3a1a9/"
+
+atom_feed:
+  hide: true
