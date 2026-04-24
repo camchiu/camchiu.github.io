@@ -18,3 +18,7 @@ author:
 
 atom_feed:
   hide: true
+
+collections:
+  research:
+    output: true
