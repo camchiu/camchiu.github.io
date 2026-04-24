@@ -70,10 +70,18 @@ a:hover {
    ========================= */
 
 .author__avatar img {
-  border-radius: 50%;
+  border-radius: 50% !important;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   opacity: 1 !important;
   transition: none !important;
-  box-shadow: none;
+}
+
+/* sometimes theme applies styling to wrapper instead */
+.author__avatar {
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 /* =========================
