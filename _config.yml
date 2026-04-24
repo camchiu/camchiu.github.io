@@ -1,6 +1,6 @@
 title: "Camille Chiu"
 name: "Camille Chiu"
-description: "Astrophysics @ Yale"
+description: "Astrophysics at Yale"
 
 remote_theme: "mmistakes/minimal-mistakes"
 
@@ -15,11 +15,3 @@ author:
   email: "camille.chiu@yale.edu"
   github: "camchiu"
   linkedin: "https://www.linkedin.com/in/camille-chiu-580a3a1a9/"
-
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
