@@ -1,10 +1,8 @@
 ---
 layout: single
 author_profile: true
-title: "Home"
+title: "About"
 ---
-
-# Camille Chiu
 
 I am a senior undergraduate at Yale University pursuing a B.S. in astrophysics. My research interests broadly include Milky Way structure and dynamics, dwarf galaxies, and asteroseismology.
 
