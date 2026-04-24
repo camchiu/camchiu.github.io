@@ -9,7 +9,7 @@ plugins:
 
 author:
   name: "Camille Chiu"
-  avatar: "/assets/images/portrait.jpg"
+  avatar: "/assets/portrait.jpg"
   bio: "Astrophysics at Yale"
   location: "New Haven, CT"
   email: "camille.chiu@yale.edu"
