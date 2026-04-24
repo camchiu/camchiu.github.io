@@ -10,9 +10,9 @@ My astrophysics research focuses on stellar evolution, exoplanets, and pulsation
 <div class="research-list">
 
   <div class="card">
-    <h2>Project 1 Title</h2>
-    <p>Short description of project 1.</p>
-    <img src="/assets/project1.jpg" />
+    <h2>test</h2>
+    <p>test</p>
+    <img src="/assets/portrait.jpg" />
   </div>
 
   <div class="card">
