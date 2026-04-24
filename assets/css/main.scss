@@ -1,8 +1,87 @@
+---
+---
+
+/* =========================
+   MINIMAL MISTAKES CORE
+   (DO NOT REMOVE)
+   ========================= */
 @import "minimal-mistakes";
+
+/* =========================
+   TYPOGRAPHY (Geha-like)
+   ========================= */
+
+/* body font */
+body {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background-color: #0f1115;
+  color: #d6d6d6;
+}
+
+/* headings font (academic serif feel) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+/* paragraph + list text */
+p, li {
+  color: #d6d6d6;
+}
+
+/* links */
+a {
+  color: #7aa2f7;
+}
+
+a:hover {
+  color: #9bbcff;
+}
+
+/* =========================
+   LAYOUT BACKGROUND FIXES
+   ========================= */
+
+/* main page area */
+.page {
+  background-color: #0f1115;
+}
+
+/* sidebar */
+.sidebar {
+  background-color: #0f1115;
+  color: #d6d6d6;
+}
+
+/* masthead (top nav bar) */
+.masthead {
+  background-color: #0f1115;
+  border-bottom: 1px solid #222;
+}
+
+/* navigation links */
+.greedy-nav a {
+  color: #d6d6d6;
+}
+
+/* =========================
+   AUTHOR AVATAR (fix hover + circle)
+   ========================= */
 
 .author__avatar img {
   border-radius: 50%;
   opacity: 1 !important;
   transition: none !important;
   box-shadow: none;
+}
+
+/* =========================
+   OPTIONAL: remove strong footer styling
+   ========================= */
+
+.page__footer {
+  background-color: #0f1115;
+  border-top: 1px solid #222;
+  color: #777;
 }
