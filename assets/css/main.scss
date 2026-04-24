@@ -1,1 +1,46 @@
 @import "minimal-mistakes";
+
+/* =========================
+   RESEARCH CARDS
+   ========================= */
+
+.research-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* full-width card */
+.research-card {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, border 0.2s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-3px);
+  border-color: #444;
+}
+
+/* text styling */
+.research-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.research-card p {
+  margin: 0.5rem 0;
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+.research-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #7aa2f7;
+  font-size: 0.9rem;
+}
