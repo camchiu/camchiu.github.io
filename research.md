@@ -6,7 +6,7 @@ permalink: /research/
 
 My astrophysics research focuses on stellar evolution, exoplanets, and pulsation timing variations.
 
-<div class="container">
+<div class="card">
     {% for research in site.research %}
     <h2>{{ research.title }}</h2>
         <div class="row" id="{{research.title}}">
