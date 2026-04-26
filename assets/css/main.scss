@@ -43,6 +43,16 @@ a:hover {
   text-align: left;
 }
 
+/* Force sidebar text to black */
+.sidebar,
+.sidebar h1,
+.sidebar p,
+.sidebar a,
+.bio,
+.location {
+  color: #000;
+}
+
 /* Circular avatar */
 .avatar {
   width: 140px;
@@ -75,16 +85,12 @@ a:hover {
 }
 
 /* Icon links (GitHub, email, etc.) */
-.icon-links {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
+.icon-links a {
+  color: #000;
 }
 
-.icon-links a {
-  font-size: 1.1rem;
-  color: #555;
-  transition: opacity 0.2s ease;
+.icon-links a:hover {
+  opacity: 0.6; /* subtle instead of color change */
 }
 
 .icon-links a:hover {
@@ -109,8 +115,12 @@ a:hover {
 
 .topbar nav a {
   margin-right: 2rem;
+  font-size: 1rem;
   font-weight: 500;
-  color: #555;
+  color: #444;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .topbar nav a:hover {
