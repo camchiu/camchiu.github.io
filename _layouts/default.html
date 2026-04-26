@@ -15,15 +15,25 @@
 
     <!-- Sidebar -->
     <aside class="sidebar">
-      <img src="/assets/portrait.jpg" class="avatar">
+      <img src="{{ site.author.avatar }}" class="avatar">
 
-      <h1>{{ site.name }}</h1>
-      <p class="bio">{{ site.description }}</p>
+      <h1>{{ site.author.name }}</h1>
+      <p class="bio">{{ site.author.bio }}</p>
 
-      <div class="links">
-        <a href="mailto:{{ site.author.email }}">Email</a>
-        <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-        <a href="{{ site.author.linkedin }}">LinkedIn</a>
+      <p class="location">{{ site.author.location }}</p>
+
+      <div class="icon-links">
+        <a href="mailto:{{ site.author.email }}" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+
+        <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="{{ site.author.linkedin }}" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
       </div>
     </aside>
 
