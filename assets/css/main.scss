@@ -167,6 +167,15 @@ p {
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
+.project-card a {
+  color: #0645ad;
+  text-decoration: underline;
+}
+
+.project-card a:hover {
+  color: #000;
+}
+
 /* subtle hover effect (very lab-site style) */
 .project-card:hover {
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
