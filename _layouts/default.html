@@ -3,24 +3,49 @@
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
+
+  <!-- Geha-style font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap">
+
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
+
 <body>
+  <div class="layout">
 
-<header class="site-header">
-  <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
-</header>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <img src="/assets/portrait.jpg" class="avatar">
 
-<nav class="nav">
-  <a href="/">Home</a>
-  <a href="/research">Research</a>
-  <a href="/cv">CV</a>
-</nav>
+      <h1>{{ site.name }}</h1>
+      <p class="bio">{{ site.description }}</p>
 
-<main class="container">
-  {{ content }}
-</main>
+      <div class="links">
+        <a href="mailto:{{ site.author.email }}">Email</a>
+        <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+        <a href="{{ site.author.linkedin }}">LinkedIn</a>
+      </div>
+    </aside>
 
+    <!-- Main area -->
+    <div class="main">
+
+      <!-- Top nav -->
+      <header class="topbar">
+        <nav>
+          <a href="/">Home</a>
+          <a href="/research/">Research</a>
+          <a href="/outreach/">Outreach</a>
+          <a href="/cv/">CV</a>
+        </nav>
+      </header>
+
+      <!-- Page content -->
+      <main class="content">
+        {{ content }}
+      </main>
+
+    </div>
+  </div>
 </body>
 </html>
