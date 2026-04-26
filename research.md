@@ -5,27 +5,15 @@ author_profile: true
 permalink: /research/
 ---
 
-<div class="research-list">
+<div class="project-card">
 
-  {% for project in site.research %}
+## Willman 1
 
-  <a class="card-link" href="{{ project.url | relative_url }}">
+testing 2
 
-    <div class="card-horizontal">
-
-      <div class="card-image">
-        <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
-      </div>
-
-      <div class="card-content">
-        <h2>{{ project.title }}</h2>
-        <p>{{ project.excerpt }}</p>
-      </div>
-
-    </div>
-
+</div>
   </a>
 
-  {% endfor %}
+  testing
 
 </div>
