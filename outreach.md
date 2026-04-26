@@ -23,7 +23,7 @@ I am the undergraduate coordinator for Yale AstroSibs, a mentorship program bet
 <h2>Women and Gender Minorities in Physics (WiP+)</h2>
 
 <p>
-I am president of the [Yale chapter of WiP+](https://womeninphysics.sites.yale.edu/). Our group organizes study halls, mentoring programs, and social events to facilitate the formation of uplifting connections between students and the wider physics/astronomy departments.
+I am president of the <a href="https://womeninphysics.sites.yale.edu/" target="_blank">Yale chapter of WiP+</a>. Our group organizes study halls, mentoring programs, and social events to facilitate the formation of uplifting connections between students and the wider physics/astronomy departments.
 </p>
 
 </div>
@@ -35,7 +35,7 @@ I am president of the [Yale chapter of WiP+](https://womeninphysics.sites.yale.
 <h2>Yale Scientific Magazine</h2>
 
 <p>
-I write for the [Yale Scientific Magazine](https://www.yalescientific.org/author/camille-chiu/).
+I write for the <a href="https://www.yalescientific.org/author/camille-chiu/" target="_blank">Yale Scientific Magazine</a>.
 </p>
 
 </div>
