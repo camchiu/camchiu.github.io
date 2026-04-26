@@ -7,13 +7,10 @@ permalink: /research/
 
 <div class="project-card">
 
-## Willman 1
+<h2>Willman 1</h2>
 
-testing 2
-
-</div>
-  </a>
-
-  testing
+<p>
+Testing 2. This project focuses on constraining the chemical and dynamical properties of the ultra-faint dwarf galaxy Willman 1.
+</p>
 
 </div>
