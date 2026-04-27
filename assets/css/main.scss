@@ -55,8 +55,8 @@ a:hover {
 
 /* Circular avatar */
 .avatar {
-  width: 140px;
-  height: 140px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
@@ -65,21 +65,21 @@ a:hover {
 
 /* Name */
 .sidebar h1 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   margin: 0 0 0.4rem 0;
 }
 
 /* Bio */
 .bio {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #666;
   margin-bottom: 0.3rem;
 }
 
 /* Location */
 .location {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: #888;
   margin-bottom: 1.2rem;
 }
@@ -87,6 +87,7 @@ a:hover {
 /* Icon links (GitHub, email, etc.) */
 .icon-links a {
   color: #000;
+  font-size: 1rem;
 }
 
 .icon-links a:hover {
@@ -95,6 +96,14 @@ a:hover {
 
 .icon-links a:hover {
   opacity: 0.6;
+}
+
+.sidebar {
+  text-align: center;
+}
+
+.icon-links {
+  align-items: center;
 }
 
 /* =========================
