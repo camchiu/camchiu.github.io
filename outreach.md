@@ -10,7 +10,7 @@ permalink: /outreach/
 <h2>AstroSibs</h2>
 
 <p>
-I am the undergraduate coordinator for Yale AstroSibs, a mentorship program between graduate/postdoc students and undergraduates at Yale.
+I am the undergraduate coordinator for <a href="https://astronomy.yale.edu/academics/undergraduate-program/astro-sibs-undergraduate-mentorship-program" target="_blank">Yale AstroSibs</a>, a mentorship program between graduate/postdoc students and undergraduates at Yale.
 </p>
 
 </div>
@@ -27,6 +27,7 @@ I am president of the <a href="https://womeninphysics.sites.yale.edu/" target="
 </p>
 
 </div>
+
 
 
 
