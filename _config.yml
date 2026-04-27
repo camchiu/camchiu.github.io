@@ -20,3 +20,6 @@ atom_feed:
 collections:
   research:
     output: true
+
+include:
+  - assets
