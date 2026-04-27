@@ -42,12 +42,10 @@ a:hover {
   border-right: 1px solid #eee;
   text-align: left;
 
-  background: 
-    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url("/assets/bkgd.jpg");
-
+  background-image: url("/assets/bkgd.JPG");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Force sidebar text to black */
