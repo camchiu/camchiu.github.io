@@ -79,26 +79,29 @@ a:hover {
 .sidebar h1 {
   font-size: 1.5rem;
   font-weight: 600;
-  margin: 0 0 0.4rem 0;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; /* <- controls spacing between ALL items */
 }
 
 /* Bio */
 .bio {
   font-size: 1rem;
-  margin-bottom: 0.3rem;
 }
 
 /* Location */
 .location {
   font-size: 1rem;
-  margin-bottom: 1.2rem;
 }
 
 /* Icon links (GitHub, email, etc.) */
 .icon-links a {
   color: #fff;
-  font-size: 2rem;
-  gap: 2rem;
+  font-size: 1rem;
 }
 
 .icon-links a:hover {
