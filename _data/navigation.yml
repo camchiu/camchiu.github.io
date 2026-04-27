@@ -8,4 +8,4 @@ main:
   - title: "Travel"
     url: /travel/
   - title: "CV"
-    url: /assets/Chiu_CV.pdf
+    url: "https://camchiu.github.io/assets/Chiu_CV.pdf"
