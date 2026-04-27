@@ -85,7 +85,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem; /* <- controls spacing between ALL items */
+  gap: 0.5rem; /* <- controls spacing between ALL items */
 }
 
 /* Bio */
